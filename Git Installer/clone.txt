@@ -1,0 +1,13 @@
+Name: 
+    clone - clone git repositories to your ComputerCraft PC
+
+Usage: 
+    clone [-h] [--help] <repository url> [name]
+
+Description: 
+    Clones public repositories to your current directory, including nested folders, while maintaining the folder structure of the repository
+    Options include:
+
+    -h, --help  Displays a help message with the syntax
+    <repository url>    Required. Specifies the repository to pull from
+    name    Optional. Renames the repository folder that is created to the specified name. If not specified, the repository name is used.
