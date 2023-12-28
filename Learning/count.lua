@@ -1,3 +1,5 @@
+-- Code for the dispatch computer
+-- Sends a number for listening computers to receive
 local number = 0
 rednet.open("right")
 rednet.host("count", "Dispatch0")

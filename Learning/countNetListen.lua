@@ -1,3 +1,5 @@
+-- Code for the listening computers
+-- Receives a number and displays it on a monitor
 local dispatch = {}
 local monitor = peripheral.find("monitor")
 rednet.open("left")
