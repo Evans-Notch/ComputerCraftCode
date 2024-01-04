@@ -16,8 +16,9 @@ end
 
 local chest = peripheral.wrap("left")
 while pLevel < target do
+    print("Level (" .. pLevel .. ") not met target, sleeping...")
     sleep(120)
     pLevel = chest.getItemDetail(1).count
 end
-
+print("Target met, sending message")
 hook.send(msg, botName, botIcon)
